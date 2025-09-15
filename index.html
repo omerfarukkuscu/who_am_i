@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ömer Faruk Kuşçu — Portfolio</title>
+  <meta name="description" content="World Champion Mathematician, Robotics Innovator, and Aspiring Engineer. Projects, skills, awards, and contact." />
+  <meta name="color-scheme" content="dark light" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="assets/img/favicon.png" />
+</head>
+<body>
+  <a class="skip-link" href="#main">İçeriğe geç</a>
+  <header class="site-header" role="banner">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Ömer Faruk Kuşçu anasayfa">ÖFK</a>
+      <nav class="primary-nav" aria-label="Birincil">
+        <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Menüyü aç/kapat">☰</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="#home" data-tr="Anasayfa" data-en="Home">Anasayfa</a></li>
+          <li><a href="cv.html" data-tr="Özgeçmiş" data-en="CV">Özgeçmiş</a></li>
+          <li><a href="portfolio.html" data-tr="Portföy" data-en="Portfolio">Portföy</a></li>
+          <li><a href="#projects" data-tr="Projeler" data-en="Projects">Projeler</a></li>
+          <li><a href="#contact" data-tr="İletişim" data-en="Contact">İletişim</a></li>
+        </ul>
+      </nav>
+      <div class="controls">
+        <button id="lang-toggle" class="lang-toggle" aria-label="Dil değiştir">
+          <span data-en="TR" data-tr="EN">EN</span>
+        </button>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Tema değiştir">🌓</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- Hero -->
+    <section id="home" class="section hero">
+      <div class="floating-shapes" aria-hidden="true">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+      <div class="container grid-2">
+        <div class="hero-text">
+          <p class="eyebrow" data-tr="Portföy" data-en="Portfolio">Portföy</p>
+          <h1>Ömer Faruk Kuşçu</h1>
+          <p class="lead" data-tr="Dünya Şampiyonu Matematikçi, Robotik Yenilikçisi ve Geleceğin Mühendisi" data-en="World Champion Mathematician, Robotics Innovator, and Aspiring Engineer">Dünya Şampiyonu Matematikçi, Robotik Yenilikçisi ve Geleceğin Mühendisi</p>
+          <p class="sub" data-tr="STEM alanında kanıtlanmış başarıları olan, global matematik yarışmasından uluslararası başarıya ulaşan robotik takımlarına liderlik eden, yüksek motivasyonlu ve başarılı bir öğrenci." data-en="A highly motivated and accomplished student with a proven track record of excellence in STEM, from winning a global mathematics competition to leading robotics teams to international success.">STEM alanında kanıtlanmış başarıları olan, global matematik yarışmasından uluslararası başarıya ulaşan robotik takımlarına liderlik eden, yüksek motivasyonlu ve başarılı bir öğrenci.</p>
+          <div class="cta-group">
+            <a class="btn primary" href="#projects" data-tr="Projelerimi Keşfet" data-en="Explore My Work">Projelerimi Keşfet</a>
+            <a class="btn ghost" href="#contact" data-tr="İletişime Geç" data-en="Get In Touch">İletişime Geç</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-photo">
+            <img src="assets/img/profile-photo.jpg" alt="Ömer Faruk Kuşçu" class="profile-image" loading="eager" />
+            <div class="photo-overlay">
+              <div class="stats">
+                <div class="stat"><span>96.80</span><small data-tr="GPA" data-en="GPA">GPA</small></div>
+                <div class="stat"><span>#1</span><small data-tr="Dünya" data-en="World">Dünya</small></div>
+                <div class="stat"><span>5+</span><small data-tr="Ödül" data-en="Awards">Ödül</small></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-badges container">
+        <span class="badge floating" data-tr="Caribou Matematik Dünya Şampiyonu" data-en="Caribou Math World Champion">Caribou Matematik Dünya Şampiyonu</span>
+        <span class="badge floating" data-tr="FRC #8795 Kaptan" data-en="FRC #8795 Captain">FRC #8795 Kaptan</span>
+        <span class="badge floating" data-tr="FTC Mentor" data-en="FTC Mentor">FTC Mentor</span>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="grid-2">
+          <div>
+            <h3>Education</h3>
+            <ul class="timeline">
+              <li>
+                <div class="timeline-card">
+                  <h4>Bestepe College, Turkey</h4>
+                  <p class="meta">Sep 2021 – Present</p>
+                  <ul>
+                    <li>Full scholarship (LGS top 1%).</li>
+                    <li>Turkish National Curriculum & A Level/IGCSE.</li>
+                    <li>GPA: 96.80/100.00.</li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-card">
+                  <h4>DENEYAP Technology Workshops (T3 Foundation)</h4>
+                  <p class="meta">2022 – Present</p>
+                  <ul>
+                    <li>Competitive 3-year advanced technology program.</li>
+                    <li>Electrical-Electronics, C++ Programming, Nanotechnology, Cybersecurity.</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Leadership & Social Impact</h3>
+            <ul class="cards">
+              <li class="card">
+                <h4>President — Beştepe College Robotics Community</h4>
+                <p>Provided technical leadership to 100+ students and built a sustainable community structure.</p>
+              </li>
+              <li class="card">
+                <h4>Captain — FRC Team #8795 (Chaotics)</h4>
+                <p>Led the team to multiple national and international awards.</p>
+              </li>
+              <li class="card">
+                <h4>Mentor — FTC Team 25564 (Middle Chaotics)</h4>
+                <p>Guided a rookie team to Top 3 in Turkey; led software/mechanical/strategy.</p>
+              </li>
+              <li class="card">
+                <h4>Other</h4>
+                <p>Children's Council roles, YGA Summit participant, Duke of Edinburgh Bronze.</p>
+              </li>
+            </ul>
+            <h3>Languages</h3>
+            <ul class="chips">
+              <li>Turkish (Native)</li>
+              <li>English (Fluent)</li>
+              <li>Chinese (Beginner – HSK 1)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="grid-3">
+          <article class="card project" data-project="frc-robots">
+            <div class="project-image">
+              <div class="media">
+                <img src="assets/img/frc-robot-2024.jpg" alt="FRC Robot 2024" loading="lazy">
+                <div class="placeholder" hidden>FRC Robot 2024</div>
+              </div>
+              <div class="project-overlay">
+                <button class="view-btn" data-tr="Görüntüle" data-en="View">Görüntüle</button>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 data-tr="FRC Takımı #8795 — Robotlar" data-en="FRC Team #8795 — Robots">FRC Takımı #8795 — Robotlar</h3>
+              <p data-tr="2024 Swerve Drive robotu elevator ve 180° dönen intake sistemi ile. 2022 Tank Drive kol sistemi ile. CNC ile kendi üretimimiz." data-en="2024 Swerve Drive robot with elevator and 180° rotating intake. 2022 Tank Drive with lever/arm. In-house CNC manufacturing.">2024 Swerve Drive robotu elevator ve 180° dönen intake sistemi ile. 2022 Tank Drive kol sistemi ile. CNC ile kendi üretimimiz.</p>
+              <ul class="tags">
+                <li>ROS/Control</li>
+                <li>C++</li>
+                <li>CNC</li>
+                <li>SolidWorks</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card project" data-project="ftc-mentor">
+            <div class="project-image">
+              <div class="media">
+                <img src="assets/img/ftc-robot.jpg" alt="FTC Robot" loading="lazy">
+                <div class="placeholder" hidden>FTC Robot</div>
+              </div>
+              <div class="project-overlay">
+                <button class="view-btn" data-tr="Görüntüle" data-en="View">Görüntüle</button>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 data-tr="FTC 25564 — Mentor" data-en="FTC 25564 — Mentor">FTC 25564 — Mentor</h3>
+              <p data-tr="Teknik geliştirme liderliği; FTC European Premier Event 2025 daveti. Notebook & Outreach adaylıkları." data-en="Led technical development; invited to FTC European Premier Event 2025. Award nominations in Notebook & Outreach.">Teknik geliştirme liderliği; FTC European Premier Event 2025 daveti. Notebook & Outreach adaylıkları.</p>
+              <ul class="tags">
+                <li>Java/C++</li>
+                <li>Strategy</li>
+                <li>Mentorship</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card project" data-project="shell-eco">
+            <div class="project-image">
+              <div class="media">
+                <img src="assets/img/shell-eco-vehicle.jpg" alt="Shell Eco Marathon Aracı" loading="lazy">
+                <div class="placeholder" hidden>Shell Eco Marathon Aracı</div>
+              </div>
+              <div class="project-overlay">
+                <button class="view-btn" data-tr="Görüntüle" data-en="View">Görüntüle</button>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 data-tr="Shell Eco Marathon Aracı" data-en="Shell Eco Marathon Vehicle">Shell Eco Marathon Aracı</h3>
+              <p data-tr="Enerji verimli araç; SolidWorks şasi; Python şerit takibi; Arduino Mega kontrol." data-en="Energy-efficient vehicle; SolidWorks chassis; Python-based lane following; Arduino Mega control.">Enerji verimli araç; SolidWorks şasi; Python şerit takibi; Arduino Mega kontrol.</p>
+              <ul class="tags">
+                <li>Python</li>
+                <li>Image Processing</li>
+                <li>SolidWorks</li>
+                <li>Arduino</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card project" data-project="pcb-agc">
+            <div class="project-image">
+              <div class="media">
+                <img src="assets/img/pcb-amplifier.jpg" alt="Geniş Bant Amplifikatör (AGC)" loading="lazy">
+                <div class="placeholder" hidden>AGC PCB</div>
+              </div>
+              <div class="project-overlay">
+                <button class="view-btn" data-tr="Görüntüle" data-en="View">Görüntüle</button>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 data-tr="Geniş Bant Amplifikatör (AGC)" data-en="Wideband Amplifier (AGC)">Geniş Bant Amplifikatör (AGC)</h3>
+              <p data-tr="KiCad ile PCB tasarımı; üretim, lehimleme ve test." data-en="PCB design in KiCad; fabrication, soldering and testing.">KiCad ile PCB tasarımı; üretim, lehimleme ve test.</p>
+              <ul class="tags">
+                <li>KiCad</li>
+                <li>Analog</li>
+                <li>PCB</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card project" data-project="gas-monitoring">
+            <div class="project-image">
+              <div class="media">
+                <img src="assets/img/gas-monitoring-system.jpg" alt="Madencilik için Gaz İzleme Sistemi" loading="lazy">
+                <div class="placeholder" hidden>Gas Monitoring System</div>
+              </div>
+              <div class="project-overlay">
+                <button class="view-btn" data-tr="Görüntüle" data-en="View">Görüntüle</button>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 data-tr="Madencilik için Gaz İzleme" data-en="Gas Monitoring for Mining">Madencilik için Gaz İzleme</h3>
+              <p data-tr="Teknofest’te ilk 3; kalibre sensörler ve gerçek zamanlı eşiklerle erken uyarı sistemi." data-en="Top 3 at Teknofest; calibrated sensors, real-time thresholds for early-warning system.">Teknofest’te ilk 3; kalibre sensörler ve gerçek zamanlı eşiklerle erken uyarı sistemi.</p>
+              <ul class="tags">
+                <li>Embedded</li>
+                <li>Safety</li>
+                <li>IoT</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card project" data-project="aim-assist">
+            <div class="project-image">
+              <div class="media">
+                <img src="assets/img/aim-assist-project.jpg" alt="Nişan Yardım Sistemi (Görüntü İşleme)" loading="lazy">
+                <div class="placeholder" hidden>Aim Assist</div>
+              </div>
+              <div class="project-overlay">
+                <button class="view-btn" data-tr="Görüntüle" data-en="View">Görüntüle</button>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 data-tr="Nişan Yardım Sistemi (Görüntü İşleme)" data-en="Aim Assist (Vision)">Nişan Yardım Sistemi (Görüntü İşleme)</h3>
+              <p data-tr="Hedefleri tespit edip kilitlenen özel eğitimli bir görüntü işleme modeli." data-en="Custom-trained image processing model to identify and lock onto targets.">Hedefleri tespit edip kilitlenen özel eğitimli bir görüntü işleme modeli.</p>
+              <ul class="tags">
+                <li>Python</li>
+                <li>CV</li>
+                <li>ML</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="grid-3">
+          <div class="card">
+            <h3>CAD & CAM</h3>
+            <ul>
+              <li>3D Modeling: SolidWorks (Adv), Siemens NX (Int), Ansys (Basic)</li>
+              <li>CAM: ArtCAM (Adv), SolidCAM (Exp)</li>
+              <li>Machining: 3-axis CNC Router</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Electronics & Control</h3>
+            <ul>
+              <li>PCB: KiCad (Int), Eagle (Beg)</li>
+              <li>MCU: Arduino, ESP32, Raspberry Pi</li>
+              <li>Sensors & Buses: I2C, UART, SPI</li>
+              <li>Control: PID</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Software & Automation</h3>
+            <ul>
+              <li>Languages: C++ (Adv), Python (Scripting/CV)</li>
+              <li>MATLAB/Simulink</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Manufacturing & Assembly</h3>
+            <ul>
+              <li>Arc Welding, 3D Printing (FDM)</li>
+              <li>Mechanical assembly, tolerancing</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Project Management</h3>
+            <ul>
+              <li>Team Leadership, Budget, EDP</li>
+              <li>Sponsor Relations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Awards -->
+    <section id="awards" class="section alt">
+      <div class="container">
+        <h2>Awards & Achievements</h2>
+        <div class="grid-3">
+          <div class="card highlight">
+            <h3>Caribou Mathematics — World Champion (#1)</h3>
+            <p>Highest score globally in international competition.</p>
+          </div>
+          <div class="card">
+            <h3>METU HBEC — 3rd Place</h3>
+            <p>National finalist with engineering-based creative design solution.</p>
+          </div>
+          <div class="card">
+            <h3>Shell Eco Marathon — France Qualifier</h3>
+            <p>National success in energy-efficient vehicle design.</p>
+          </div>
+          <div class="card">
+            <h3>NASA Space Apps — Participant</h3>
+            <p>Competed in global hackathon with innovative tech project.</p>
+          </div>
+          <div class="card">
+            <h3>FRC Team #8795 — Awards</h3>
+            <ul class="tight">
+              <li>Judges' Award (2025)</li>
+              <li>Gracious Professionalism (2024)</li>
+              <li>Team Sustainability (2023)</li>
+              <li>Creativity (2022)</li>
+              <li>Rookie Inspiration (2022)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <p>I am always open to discussing new projects, creative ideas, or opportunities to be part of an ambitious team.</p>
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:omerfarukkuscu00@gmail.com">
+            <span class="icon">✉️</span>
+            <span>Email</span>
+            <small>omerfarukkuscu00@gmail.com</small>
+          </a>
+          <a class="contact-card" href="tel:+905400023123">
+            <span class="icon">📞</span>
+            <span>Phone</span>
+            <small>+90 540 002 3123</small>
+          </a>
+          <div class="contact-card">
+            <span class="icon">📍</span>
+            <span>Location</span>
+            <small>Mamak, Ankara, Turkey</small>
+          </div>
+        </div>
+        <div class="resume-cta">
+          <h3 data-tr="Belgeler" data-en="Documents">Belgeler</h3>
+          <div class="document-links">
+            <a href="assets/documents/CV.pdf" target="_blank" class="btn document-btn" download>
+              <span class="icon">📄</span>
+              <span data-tr="CV İndir (PDF)" data-en="Download CV (PDF)">CV İndir (PDF)</span>
+            </a>
+            <a href="assets/documents/Portfoy.pdf" target="_blank" class="btn document-btn" download>
+              <span class="icon">📁</span>
+              <span data-tr="Portföy İndir (PDF)" data-en="Download Portfolio (PDF)">Portföy İndir (PDF)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <div class="lightbox-backdrop" aria-label="Modal kapat"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Kapat">×</button>
+      <div class="lightbox-body">
+        <div class="lightbox-image">
+          <img id="lightbox-img" src="" alt="" />
+        </div>
+        <div class="lightbox-info">
+          <h3 id="lightbox-title"></h3>
+          <p id="lightbox-description"></p>
+          <div id="lightbox-tags" class="tags"></div>
+          <div class="lightbox-actions">
+            <button class="btn ghost" data-tr="Detaylar" data-en="Details">Detaylar</button>
+            <button class="btn primary" data-tr="GitHub'da Gör" data-en="View on GitHub">GitHub'da Gör</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer">
+      <p>© <span id="year"></span> Ömer Faruk Kuşçu</p>
+      <a href="#home" class="to-top" aria-label="Başa dön">⤤</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
+
